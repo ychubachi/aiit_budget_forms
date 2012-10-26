@@ -60,7 +60,7 @@ Sub 伝票印刷ボタン_Click()
                 oval2.Fill.Transparency = 1#
                 
                 ' PDFファイルに出力する
-                PDFファイル出力 (myFileName = "No" & myNum & "-立替払承認届.pdf")
+                PDFファイル出力 "No" & myNum & "-立替払承認届.pdf"
                 
                 ' まるを削除する
                 oval.Delete
@@ -89,7 +89,7 @@ Sub 伝票印刷ボタン_Click()
                 oval.Fill.Transparency = 1#
                 
                 ' PDFファイルに出力する
-                PDFファイル出力 (myFileName = "No" & myNum & "-発注情報通知書.pdf")
+                PDFファイル出力 "No" & myNum & "-発注情報通知書.pdf"
                 
                 
                 ' まるを削除する
